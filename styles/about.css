@@ -1,0 +1,12 @@
+h1 {
+  font-family: montserrat;
+  font-size: 50px;
+  text-align: center;
+  padding: 30px 100px 30px;
+}
+.paragraph {
+  font-family: montserrat;
+  font-size: 20px;
+  padding: 30px 100px 30px;
+  line-height: 25px;
+}

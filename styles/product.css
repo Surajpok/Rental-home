@@ -1,0 +1,64 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.listing {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 9px 0px rgb(34 12 43 / 20%);
+  padding: 10px 10px 10px 10px;
+  margin: auto auto 35px auto;
+  height: 380px;
+  width: max-content;
+  /* flex: 0 0 30%; */
+  overflow: hidden;
+}
+.listImg {
+  padding: 6px;
+  height:170px;
+  width: 325px;
+  display: block;
+  margin: 0 auto 0 auto;
+  object-fit:cover;
+  object-position: top;
+}
+.listingBody {
+  padding: 10px;
+}
+.listingTitle {
+  font-size: 25px;
+  line-height: 30px;
+  height:60px;
+  width: 300px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.listingPrice {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+.listingBody2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.pagi-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.pagination li {
+  display: inline;
+}
+
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
