@@ -47,10 +47,10 @@ function getPro(){
 
 						<div class='listingBody'>
 							<h6 class='listingTitle'> <a href='./index.php?id=$id'>$title</a> </h6>
-							<span class='listingPrice'> Rs. $price</span>/month
+							<span class='listingPlace'>$location</span>
 						</div>
 						<div class='listingBody2'>
-							<p>$date</p>
+						<p class='listingPrice'>Rs. $price<span>/MO</span></p>
 							<a class='btn' href='./room_detail.php?id=$id'>Details</a>
 						</div>
   					</div>
@@ -94,7 +94,7 @@ function getPro(){
 
 						<div class='listingBody'>
 							<h6 class='listingTitle'> <a href='./index.php?id=$id'>$title</a> </h6>
-							<span> Rs. $price</spanz	>
+							<span class='listingPlace'>$location</span>
 						</div>
 						<div class='listingBody2'>
 							<p class='listingPrice'>Rs. $price<span>/MO</span></p>
